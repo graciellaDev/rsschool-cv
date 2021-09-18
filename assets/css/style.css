@@ -162,13 +162,15 @@
    justify-content: center;
    align-items: center;
    margin-right: 10px;
-   color: var(--turquoise-color);
    border-radius: 50%;
    background: white;
    font-size: 17px;
    text-align: center;
    line-height:1;
  }
+ ul.social li .fa{
+  color: var(--turquoise-color); 
+}
  .border-title-content{
    border-left: 3px solid var(--turquoise-color);
    padding:30px 10px;
