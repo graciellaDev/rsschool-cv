@@ -12,7 +12,7 @@ function coord(elem) {
                            menu=document.getElementById('menu_mob'),
                            burger=document.querySelector('#burger i');
                        if (target.tagName=='A'){
-                         let link_name=target.getAttribute('linka');
+                         let link_name=target.getAttribute('title');
                          let link=document.getElementById(link_name);
                          link.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
                          menu.style.display='none';
