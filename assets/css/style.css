@@ -325,6 +325,15 @@
  .my_works a:hover{
 	 color:var(--turquoise-color);
  }
+ .my_works p{
+  padding:0 0 15px;
+}
+.line{
+  margin:auto;
+  width:275px;
+  height:1px;
+  background:var(--simple-grey-color);
+}
  @media screen and (max-width:992px){
    figcaption a{
      font-size:0.9em;
