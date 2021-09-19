@@ -37,6 +37,7 @@ function coord(elem) {
       this.querySelector('i').classList.add('fa-bars');
     }
   }
+  var deploy='';
   deploy+='Done 18.09.2021 / deadline 20.09.2021 \n ';
   deploy+='Score: 167 / 200 \n Наличие выполненных критериев: \n ';
   deploy+='вёрстка семантическая +20 \n ';
